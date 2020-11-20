@@ -1,0 +1,70 @@
+{
+	"scale": {
+		"transform": "ulscale(x, 1e-2f, 1e+2f)",
+		"default": 0.3354130050227959
+	},
+	"drift_level": {
+		"transform": "uscale(x, -100.0f, +100.0f)",
+		"default": 1.1457074945988224
+	},
+	"drift_tau": {
+		"transform": "ulscale(x, 1e-3f, 1e0f)",
+		"default": -0.24490160284104345
+	},
+	"drift_depth": {
+		"transform": "ulscale(x, 1e-1f, 1e+1f)",
+		"default": 0.17256520619534355
+	},
+	"drift2_level": {
+		"transform": "uscale(x, -50.0f, +50.0f)",
+		"default": 0.5687941839069476
+	},
+	"drift2_depth": {
+		"transform": "ulscale(x, 1e-1f, 1e+1f)",
+		"default": 0.03820307362348023
+	},
+	"clip": {
+		"transform": "uscale(x, 10.0f, 50.0f)",
+		"default": 0.512660507060484
+	},
+	"clip_corner": {
+		"transform": "ulscale(x, 1e-1f, 1e+2f)",
+		"default": 1.0710608690349508
+	},
+	"comp_tau": {
+		"transform": "ulscale(x, 1e-3f, 1e0f)",
+		"default": -1.3144536602319588
+	},
+	"comp_depth": {
+		"transform": "ulscale(x, 1e-1f, 1e+1f)",
+		"default": -0.5413471124654928
+	},
+	"cross_corner": {
+		"transform": "ulscale(x, 1e-1f, 1e+2f)",
+		"default": 0.5975769112202917
+	},
+	"hp_freq": {
+		"transform": "ulscale(x, 1e1f, 1e2f)",
+		"default": -2.8677921923693575
+	},
+	"lp_freq": {
+		"transform": "ulscale(x, 5e3f, 15e3f)",
+		"default": 0.4804991287570702
+	},
+	"sag_toggle": {
+		"transform": "uscale(x, 0.0f, 1.0f)"
+	},
+	"sag_depth": {
+		"transform": "ulscale(x, 1e-2f, 1e-1f)"
+	},
+	"sag_tau": {
+		"transform": "ulscale(x, 1e-2f, 5e-1f)"
+	},
+	"sag_ratio": {
+		"transform": "ulscale(x, 1e0f, 1e+1f)"
+	},
+	"sag_onset": {
+		"transform": "ulscale(x, 1e-2f, 1e0f)"
+	},
+	"sag_factor": {}
+}

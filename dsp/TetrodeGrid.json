@@ -1,0 +1,34 @@
+{
+	"hp_freq": {
+		"transform": "ulscale(x, 1e-1f, 1e+2f)",
+		"default": -7.1344309986498
+	},
+	"offset1": {
+		"transform": "uscale(x, 0.0f, 500.0f)",
+		"default": 0.0478387513018512
+	},
+	"offset2": {
+		"transform": "uscale(x, 0.0f, 500.0f)",
+		"default": -2.0478401577544796
+	},
+	"taus": {
+		"transform": "ulscale(x, 1e-4f, 1e0f)",
+		"default": -4.9238040658224704e-05
+	},
+	"level": {
+		"transform": "uscale(x, -100.0f, +100.0f)",
+		"default": 0.4248250772885416
+	},
+	"tau": {
+		"transform": "ulscale(x, 1e-4f, 1e0f)",
+		"default": -0.6193241274680021
+	},
+	"ratio": {
+		"transform": "ulscale(x, 1e-2f, 1e+2f)",
+		"default": 0.6316976010757572
+	},
+	"cap": {
+		"transform": "ulscale(x, 1e-1f, 1e+1f)",
+		"default": 2.465974393998683
+	}
+}

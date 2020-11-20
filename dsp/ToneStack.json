@@ -1,0 +1,15 @@
+{
+    "bass": {
+        "transform": "uscale(x, -1.0f, 1.0f)"
+    },
+    "mids": {
+        "transform": "uscale(x, -1.0f, 1.0f)"
+    },
+    "treble": {
+        "transform": "uscale(x, -1.0f, 1.0f)"
+    },
+    "presence": {
+        "transform": "uscale(x, -1.0f, 1.0f)"
+    },
+    "selection": {}
+}

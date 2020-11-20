@@ -1,0 +1,5 @@
+**/__pycache__/
+build/
+headers/
+!headers/PushPullAmp.h
+!headers/.clang-format
